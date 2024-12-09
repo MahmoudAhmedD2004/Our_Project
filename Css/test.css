@@ -1,0 +1,136 @@
+.mat {
+    display: inline-block;
+    /* background-color: #eee; */
+    height: 210px;
+    padding: 10px;
+    margin: 40px 40px 40px 80px;
+
+    /* margin-bottom: 30px; */
+    position: relative;
+    border: 2px solid #c1c0c0;
+    box-shadow: 5px 5px 5px rgb(57, 129, 129);
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+a:hover {
+    color: red;
+}
+p {
+    font-size: 20px;
+    position: absolute;
+    top: 140px;
+}
+body {
+    background-color: rgb(51, 213, 213);
+    position: relative;
+}
+.parient {
+    width: 100%;
+    height: 50px;
+    /* background-color: #eee; */
+    position: sticky;
+    top: 5px;
+    z-index: 1;
+}
+.parient {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: #eee; */
+    height: 100px;
+    text-align: center;
+    /* border: 2px solid rgb(30, 54, 54); */
+    margin-top: 0px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px rgb(57, 129, 129);
+}
+.parient .first_year{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    display: inline-block;
+}
+.parient .second_year{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    display: inline-block;
+}
+
+.parient .third_year{
+    position: absolute;
+    top: 0px;
+    right: 800px;
+    display: inline-block;
+}
+
+.parient .fourth_year{
+    position: absolute;
+    top: 0px;
+    right: 500px;
+    display: inline-block;
+}
+body .up_page {
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #eee;
+}
+.parient .first_year .first {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    padding: 10px;
+}
+.parient .first_year .second {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    padding: 10px;
+}
+.parient .second_year .first {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    padding: 10px;
+}
+.parient .second_year .second {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    padding: 10px;
+}
+.parient .third_year .first {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    padding: 10px;
+}
+.parient .third_year .second {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    padding: 10px;
+}
+.parient .fourth_year .first {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    padding: 10px;
+}
+.parient .fourth_year .second {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    padding: 10px;
+}
